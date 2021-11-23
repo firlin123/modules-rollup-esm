@@ -19,8 +19,5 @@ export default {
     commonjs(),
     nodeResolve({ browser: true }),
     terser(),
-    copy({
-      targets: [{ src: './src/slug.txt', dest: './dist/' }],
-    }),
   ],
 }
